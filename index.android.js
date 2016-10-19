@@ -31,7 +31,10 @@ import GameEndOverlay from './GameEndOverlay';
 
 var AwesomeProject = React.createClass({
   getInitialState() {
-    return { board: new Board(), player: 1 };
+    return { 
+              board: new Board(), 
+              player: 1 
+           };
   },
 
   restartGame() {
